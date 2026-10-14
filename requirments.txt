@@ -1,0 +1,18 @@
+numpy
+pandas 
+matplotlib
+seaborn
+streamlit
+
+#Face Recognation
+Scikit-learn
+dlib-bin
+setuptools
+
+supabase
+bcrypt
+
+segno
+pillow
+
+
