@@ -10,3 +10,4 @@ segno
 pillow
 librosa
 resemblyzer
+dlib-bin
