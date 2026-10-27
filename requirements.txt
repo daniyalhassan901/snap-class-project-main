@@ -2,6 +2,8 @@ streamlit
 numpy
 pandas
 matplotlib
+face_recognition
+face_recognition_models
 seaborn
 scikit-learn
 supabase
