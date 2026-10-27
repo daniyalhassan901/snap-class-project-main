@@ -1,22 +1,13 @@
 streamlit
 numpy
-pandas 
+pandas
 matplotlib
 seaborn
-
-
-#Face Recognation
-Scikit-learn
-dlib-bin
-setuptools
-
+scikit-learn
 supabase
 bcrypt
-
 segno
 pillow
-
 librosa
 resemblyzer
-
-
+dlib
