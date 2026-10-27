@@ -2,8 +2,12 @@ streamlit
 numpy
 pandas
 matplotlib
-face_recognition
-face_recognition_models
+# FACE RECOGNITION
+scikit-learn
+dlib-bin
+git+https://github.com/ageitgey/face_recognition_models
+setuptools<70.0.0
+
 seaborn
 scikit-learn
 supabase
