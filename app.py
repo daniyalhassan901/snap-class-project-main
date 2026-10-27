@@ -7,6 +7,18 @@ from src.screens.student_screen import student_screen
 
 from src.components.dialog_auto_enroll import auto_enroll_dialog
 
+import streamlit as st
+# ... your other imports ...
+
+hide_logos = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+</style>
+"""
+st.markdown(hide_logos, unsafe_allow_html=True)
+
 def main():
     st.set_page_config(
         page_title='SnapClass - Making Attendance faster using AI',
@@ -39,3 +51,4 @@ def main():
             auto_enroll_dialog(join_code)
 if __name__ == "__main__":
     main()
+
