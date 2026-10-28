@@ -17,6 +17,12 @@ hide_logos = """
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
+.stAppDeployButton {display:none !important;}
+div[data-testid="stToolbar"] {visibility: hidden !important; height: 0 !important;}
+div[data-testid="stDecoration"] {visibility: hidden !important;}
+div[data-testid="stStatusWidget"] {visibility: hidden !important;}
+a[data-testid="stAppDeployButton"] {display: none !important;}
+button[kind="header"] {display: none !important;}
 </style>
 """
 st.markdown(hide_logos, unsafe_allow_html=True)
