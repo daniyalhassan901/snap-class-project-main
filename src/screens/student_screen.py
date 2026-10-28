@@ -14,6 +14,10 @@ import time
 from src.components.dialog_enroll import enroll_dialog
 from src.components.subject_card import subject_card
 
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
 def student_dashboard():
     student_data = st.session_state.student_data
     student_id = student_data['student_id']
